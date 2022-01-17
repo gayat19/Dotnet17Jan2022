@@ -48,3 +48,19 @@ git clone <remote repo>
 To update from the remote repo to teh local repo
 
 git pull origin master
+
+---------------------------------------------
+To create a new branch 
+
+git branch <branch name>
+-------------------------------------------
+To change teh working branch
+
+git checkout <branch name>
+
+-----------------------------------------------
+
+To view all the branches
+
+git branch
+------------------------------------------------

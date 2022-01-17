@@ -1,0 +1,9 @@
+To get the git version that is installed in the system
+
+git --version
+
+------------------------------------------------------------
+To create a local repo
+
+git init
+

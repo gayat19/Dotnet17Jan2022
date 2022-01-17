@@ -7,7 +7,7 @@ To create a local repo
 
 git init
 -------------------------------------------------------------
-To check the status of teh local repo
+To check the status of the local repo
 
 git status
 

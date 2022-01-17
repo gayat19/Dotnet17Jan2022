@@ -1,0 +1,72 @@
+Entity - Strong, Weak
+Attribute - Simple, Complex, Multi Value
+Relation
+RelationType 1:1, 1:n, n:m
+Primary key
+Composite Key
+Foreign Key
+Unique
+Check Constraint
+
+DDL,DML, Select
+
+Simple video store - > Rents CDs and DVDs 
+Customer can rent the disc
+Customer data shoule be stored
+Disc data should be stored
+Invoice and rent related data also should be stored
+
+
+From Johanna Sitompul 
+
+CUST
+------
+CustID
+CustName
+Age
+ContactNum
+
+DISC
+------
+DiscID
+MovieName
+Type
+Cost
+IsAvailable
+
+INVOICE
+--------
+InvoiceID
+CustID
+TotalCost
+InvoiceDate
+ReturnDate
+
+ITEMS
+------
+InvoiceID
+DiscID
+
+
+
+From Ooi Shu Jing 
+1. Customer 
+		a. Phone number
+		b. Name
+		c. Id
+		
+	2. Disc 
+		a. Id
+		b. Name
+		c. description
+		d. Type: CD/DVD
+		e. Amount available
+		f. Amount in rent
+		g. price
+	3. Invoice 
+		a. ID
+		b. Customer ID
+		c. Disc ID
+		d. Total cost
+		e. Quantity
+                f.duration

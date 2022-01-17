@@ -6,4 +6,26 @@ git --version
 To create a local repo
 
 git init
+-------------------------------------------------------------
+To check the status of teh local repo
+
+git status
+
+-------------------------------------------------------------
+To add a file to the local repo for tracking
+
+git add <filename>
+-------------------------------------------------------------
+to add all teh files in the current folder  for tracking
+
+git add -A
+-----------------------------------------------------------
+To commit the file to the local repo 
+
+git commit -m "First Commit"
+
+--------------------------------------------------------------
+
+To set the identity for local repo
+git config --global user.email "gayat_19@yahoo.com"
 

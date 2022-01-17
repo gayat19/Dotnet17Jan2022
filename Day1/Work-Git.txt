@@ -16,7 +16,7 @@ To add a file to the local repo for tracking
 
 git add <filename>
 -------------------------------------------------------------
-to add all teh files in the current folder  for tracking
+to add all the files in the current folder  for tracking
 
 git add -A
 -----------------------------------------------------------
@@ -28,4 +28,23 @@ git commit -m "First Commit"
 
 To set the identity for local repo
 git config --global user.email "gayat_19@yahoo.com"
+-----------------------------------------------------------------
 
+Link local repo with the remote repo
+
+git remote add origin https://github.com/gayat19/Dotnet17Jan2022.git
+
+------------------------------------------------------------------
+to check the remote repo connection
+
+git remote --v
+
+---------------------------------------------------------
+To pull work from a remote repo all new
+Create a local folder and in the cmd prompt
+git clone <remote repo>
+
+---------------------------------------------------------------
+To update from the remote repo to teh local repo
+
+git pull origin master

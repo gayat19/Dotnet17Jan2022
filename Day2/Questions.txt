@@ -1,0 +1,60 @@
+1) Select all the author's details
+
+2) print all the author's full name
+
+3) Print the average price , total price of all the titles
+
+4) Print the average price of a titles published by '0736'
+
+5) print the titles whicha have advance min of 3200 and maximum of 5000
+
+6) Print the titles which are of type 'psychology' or 'mod_cook'
+
+7) print all titles published before '1991-06-09 00:00:00.000'
+
+8) Select all the authors from 'CA'
+
+9) Print the average price of titles in every type
+
+10) print the sum of price of all the books pulished by every publisher
+
+11) Print the first published title in every type
+
+12) calculate the total royalty for every publisher
+
+13) print the titles sorted by published date
+
+14) print the titles sorted by publisher then by price
+
+15) Print the books published by authors from 'CA'
+
+16) Print the author name of books whcih have royalty more than the average royalty of all the titletes
+
+17) Print all the city and the number of pulishers in it, only if the city has more than one publisher
+
+18) Print the total number of orders for every title
+
+19) Prin the total number of titles in evry order
+
+20) Print the order date and the title name
+
+21) Print all the title names and publisher names
+
+22) print all the publisher names(even if they have not published) and the title names that they have published
+
+23) print the title id and the numebr of authors contributing to it
+
+24) Print the titl name and the author name
+
+25) print the title name, author name and the publisher name
+
+26) print the titl name author name, publisher name, orderid, order date, quantity ordered and the total price
+
+27) given a title name print the stores in which it ws sold
+
+28) Select the employees who have taken morethan 2 orders
+
+29) Select all the titles and print the first order date (titles that have not be ordered should also be present)
+
+30) select all the data from teh orderes and the authors table
+

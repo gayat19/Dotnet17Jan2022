@@ -59,6 +59,8 @@ then print all the entries for his salary in the employeesalary table.
 Also show the salary splitt up(Hint-> use the salary table)
 
 
+17) https://www.hackerrank.com/challenges/maximum-element/problem
+18) https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/
 
 
 

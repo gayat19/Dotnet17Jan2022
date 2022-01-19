@@ -1,0 +1,64 @@
+1) Select the author firtname and last name
+
+2) Sort the titles by the title name in descending order and print all the details
+
+3) Print the number of titlespublished by every author
+
+4) print the author name and title name
+
+5) print the publisher name and the average advance for every publisher
+
+6) print the publishername, author name, title name and the sale amount(qty*price)
+
+7) print the price of all that titles that have name that ends with s
+
+8) print the title names that contain and in it
+
+9) print the employee name and the publisher name
+
+10) print the publisher name and number of employees woking in it if the publisher has more than 2 employees
+
+11) Print the author names who have published using teh publisher name 'Algodata Infosystems'
+
+12) Print the employees of the publisher 'Algodata Infosystems'
+
+14)Create the following tables
+Employee(id-identity starts in 100 inc by 1,
+Name,age, phone cannot be null, gender)
+Salary(id-identity starts at 1 increments by 100,
+Basic,HRA,DA,deductions)
+EmployeeSalary(transaction_number int,
+employee_id-reference Employee's Id 
+Salary_id reference Salary Id,
+Date)
+PS - In the emeployee salary table transaction number is the primary key
+the combination of employee_id, salary_id and date should always be unique
+
+
+
+Add a column email-varchar(100) to the employee table
+
+Insert few records in all the tables
+
+Create a procedure which will print the total salary of employee by taking the employee id and the date
+total = Basic+HRA+DA-deductions
+
+Create a procudure which will calculate the average salary of an employee taking his ID
+
+Create a procedure which will catculate tax payable by employee
+Slabs as follows
+total - 100000 - 0%
+100000 > total < 200000 - 5%
+200000 > total < 350000 - 6%
+total > 350000 - 7.5%
+
+15) Create a function that will take the basic,HRA and da returns the sum of the three
+
+16) Create a cursor that will pick up every employee and print his details 
+then print all the entries for his salary in the employeesalary table. 
+Also show the salary splitt up(Hint-> use the salary table)
+
+
+
+
+

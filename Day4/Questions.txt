@@ -1,0 +1,28 @@
+1) Write a program that will take an input from user as number and print all the numbers 
+from 0 to the given number.
+
+2) Create a program that will find out if the given number is odd or even
+
+3) Create a program that will take 2 numbers and find out the greates of the 2
+
+4) Inprove the program written in question 3 to find the greatest of 3 numbers
+
+5) Take the minimum and maximum number from user and find all numbers inbetween
+
+6) Find if a given number is prime
+
+7) Improve the program in 5 to find all the prime numbers between the gven numbers
+
+8) Take input from user until the user enters a negative number and find the sum of all the numbers 
+that are divisible by 7
+
+9) Take a 4 digit number from user and find the sum of all the digits
+example - 1234 result should be 10
+
+10) Take a 4 digit number from user and find if it is a palindrome or not
+example - 1234 result should be Not a plaindrome
+example - 1221 result should be Plaindrome
+
+11) https://leetcode.com/problems/powx-n/
+
+12) https://leetcode.com/problems/happy-number/

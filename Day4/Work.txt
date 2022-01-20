@@ -35,4 +35,37 @@ https://docs.microsoft.com/en-us/dotnet/fundamentals/
 https://docs.microsoft.com/en-us/dotnet/csharp/
 
 C# -> OOPS
+Language
+  Keywords - > Words
+  Syntax   -> Grammer
+
+Statements
+  Sequence -> One after another
+  Selection -> Choice of statements
+  Iteration  -> Repeat execution
+
+OOPS ->
+  Class
+  Object
+  Inheritance
+  Polymorphism
+  Encapsulation
+  Abstraction
+
+Everything should be inside a class or a structure
+Naming
+Class Name -> CapitalFirstLetter -> Nouns
+Methods -> CapitalFirstLetter -> Verbs
+Interface - > IThenFirstLetterCapital
+Variables
+   private -> camelCase
+   ReadOnly -> _camelCase
+   Constants -> PASCAL
+   Public - > CapitalFirstLetter
+
+
+
+
+
+
 

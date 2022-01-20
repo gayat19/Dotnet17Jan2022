@@ -1,0 +1,8 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\bin\Debug\FirstApplication.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day4\FirstSolution\FirstApplication\obj\Debug\FirstApplication.pdb

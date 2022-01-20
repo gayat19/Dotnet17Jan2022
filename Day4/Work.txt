@@ -1,0 +1,38 @@
+CRUD -> Create,Read,Update,Delete
+
+Pizza
+.NET 
+C#
+
+Visual Studio -IDE
+
+
+.NET Core-PI
+Visual Studio Code
+
+Interoperability -> Inter Operational Ability
+Types -> int,float,char,double
+C -> GCC/Borland -> 2/4
+
+CTS
+CLS
+TypeSafty
+
+int->float X
+int->char X
+float->int X
+
+
+Managed Code -> Managed by the CLR
+
+Assembly -> 
+
+
+https://docs.microsoft.com/en-us/dotnet/fundamentals/
+
+2,3,3.5,4,4.5
+
+https://docs.microsoft.com/en-us/dotnet/csharp/
+
+C# -> OOPS
+

@@ -1,0 +1,11 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaModelsLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaModelsLibrary.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.CopyComplete

@@ -1,0 +1,8 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\bin\Debug\UnderstandingArraysApplication.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\bin\Debug\UnderstandingArraysApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\bin\Debug\UnderstandingArraysApplication.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\obj\Debug\UnderstandingArraysApplication.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\obj\Debug\UnderstandingArraysApplication.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\obj\Debug\UnderstandingArraysApplication.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\obj\Debug\UnderstandingArraysApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day5\ArraySolution\UnderstandingArraysApplication\obj\Debug\UnderstandingArraysApplication.pdb

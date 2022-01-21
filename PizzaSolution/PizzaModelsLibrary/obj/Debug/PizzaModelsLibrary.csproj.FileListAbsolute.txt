@@ -1,0 +1,6 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaModelsLibrary\bin\Debug\PizzaModelsLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaModelsLibrary\bin\Debug\PizzaModelsLibrary.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.csproj.AssemblyReference.cache

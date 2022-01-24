@@ -33,11 +33,24 @@ namespace UnderstandingOverloadingApplication
         }
         static void Main(string[] args)
         {
-            Program program = new Program();
-            program.Add("Hello", "World");
-            program.Add(10, 20);
-            program.Add(20);
-
+            //Program program = new Program();
+            //program.Add("Hello", "World");
+            //program.Add(10, 20);
+            //program.Add(20);
+            Employee employee = new Employee();
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine(employee[i]);
+            //}
+            Employee e1 = new Employee();
+            Employee e2 = new Employee();
+            e1[0] = "Java";
+            Employee e3 =e1 + e2;
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(e3[i]);
+            }
+            Console.WriteLine("The index of skill MS SQL is "+employee["MS SQL"]);
             Console.ReadKey();
         }
     }

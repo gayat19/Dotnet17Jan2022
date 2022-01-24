@@ -33,6 +33,7 @@ namespace PizzaModelsLibrary
                 Console.WriteLine("Invalid entry for isveg. Please try again...");
             }
             IsVeg = isVeg;
+            Console.WriteLine("Please enter the pizza's price");
             double price;
             while (!double.TryParse(Console.ReadLine(), out price))
             {

@@ -1,0 +1,162 @@
+C - Create
+R - Read
+U - Update
+D - Delete
+
+Overloading - 
+Same method with change in parameter 
+	- number/Order /Datat Type of parameters
+Static polymorphism
+internal class Employee
+    {
+        string[] skills = new string[3];
+        public Employee()
+        {
+            skills[0] = "C#";
+            skills[1] = "MS SQL";
+            skills[2] = "DevOps";
+        }
+        public string this[int index]
+        {
+            get { return skills[index]; }
+            set { skills[index] = value;  }
+        }
+    }
+    
+    Employee employee = new Employee();
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(employee[i]);
+            }
+            
+             Employee e1 = new Employee();
+            Employee e2 = new Employee();
+            e1[0] = "Java";
+            Employee e3 =e1 + e2;
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(e3[i]);
+            }
+             public static Employee operator +(Employee e1, Employee e2)
+        {
+                Employee e = new Employee();
+                for (int i = 0; i < e.skills.Length; i++)
+                {
+                    if (e1[i] != e2[i])
+                    {
+                        e[i] = e1[i] + " and " + e2[i];
+                    }
+                    else
+                        e[i] = e1[i];
+                }
+                return e;
+        }
+ internal interface ILiving
+    {
+        void Breathe();
+        void Eat();
+        void Sleep();
+    }
+    interface IFlying
+    {
+        void TakeOff();
+        void Fly();
+        void Land();
+    }
+    internal class Bird : IFlying,ILiving
+    {
+        public Bird()
+        {
+            Console.WriteLine("You have created a bird");
+        }
+        public void Breathe()
+        {
+            Console.WriteLine("Breathe in.... Breathe out");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine("Munch mucch");
+        }
+
+        public void Fly()
+        {
+            Console.WriteLine("Fly Fly");
+        }
+
+        public void Land()
+        {
+            Console.WriteLine("Stop flapping wings");
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
+        }
+
+        public void TakeOff()
+        {
+            Console.WriteLine("Flap wings fast");
+        }
+    }
+    
+     internal class Program
+    {
+        void CheckSky(IFlying flying)
+        {
+            flying.TakeOff();
+            flying.Fly();
+            flying.Land();
+        }
+        void ExploreForest(ILiving living)
+        {
+            living.Breathe();
+            living.Eat();
+            living.Sleep();
+        }
+        static void Main(string[] args)
+        {
+            Bird bird = new Bird();
+            Program program = new Program();
+            //program.ExploreForest(bird);
+            program.CheckSky(bird);
+            Console.ReadKey();
+        }
+    }
+    
+    using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UnderstandingOverloadingApplication
+{
+    internal class Program
+    {
+        void Add(int num1,int num2)
+        {
+            int sum = num1 + num2;
+            Console.WriteLine("The sum of {0} and {1} is {2}",num1,num2,sum);
+        }
+        void Add(int num1)
+        {
+            int sum = num1++;
+            Console.WriteLine("The incremented value of  {0} is {1}", num1, sum);
+        }
+        void Add(string str1,string str2)
+        {
+            string res = str1 +" "+ str2;
+            Console.WriteLine("The concat value of of {0} and {1} is {2}", str1, str2, res);
+        }
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+            program.Add("Hello", "World");
+            program.Add(10, 20);
+            program.Add(20);
+
+            Console.ReadKey();
+        }
+    }
+}

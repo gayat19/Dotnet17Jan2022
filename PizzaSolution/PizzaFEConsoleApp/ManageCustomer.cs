@@ -37,6 +37,7 @@ namespace PizzaFEConsoleApp
         public void DisplayCustomer()
         {
             //customer.PrintCustomerDetails();
+            Array.Sort(customers);
             for (int i = 0; i < customers.Length; i++)
             {
                 Console.WriteLine(customers[i]);

@@ -55,18 +55,21 @@ namespace PizzaFEConsoleApp
             //}
             if(pizzas.Count == 0)
                 return 101;
-            return pizzas.Count+100;
+            return pizzas.Count+101;
         }
 
         public Pizza GetPizzaById(int id)
         {
-            Pizza pizza = null;
+            //Pizza pizza = null;
             //for (int i = 0; i < pizzas.Length; i++)
-            for (int i = 0; i < pizzas.Count; i++)
-            {
-                if(pizzas[i].Id==id)
-                    pizza = pizzas[i];
-            }
+            //for (int i = 0; i < pizzas.Count; i++)
+            //{
+            //    if(pizzas[i].Id==id)
+            //        pizza = pizzas[i];
+            //}
+            //Predicate<Pizza> findPizza = p=>p.Id== id;
+            //Pizza pizza = pizzas.Find(findPizza);
+            Pizza pizza = pizzas.Find(p => p.Id == id);
             return pizza;
         }
         public void EditPizzaPrice()

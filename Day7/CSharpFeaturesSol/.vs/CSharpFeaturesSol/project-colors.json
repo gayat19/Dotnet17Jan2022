@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1c41bdff-3542-4e84-8194-d8b5c509e62e": {
+      "ProjectGuid": "1c41bdff-3542-4e84-8194-d8b5c509e62e",
+      "DisplayName": "CSharpFeaturesApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

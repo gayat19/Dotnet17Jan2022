@@ -1,0 +1,7 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\UnderstandingDelegatesSolution\UnderstandingDelegatesApp\bin\Debug\UnderstandingDelegatesApp.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\UnderstandingDelegatesSolution\UnderstandingDelegatesApp\bin\Debug\UnderstandingDelegatesApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\UnderstandingDelegatesSolution\UnderstandingDelegatesApp\bin\Debug\UnderstandingDelegatesApp.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\UnderstandingDelegatesSolution\UnderstandingDelegatesApp\obj\Debug\UnderstandingDelegatesApp.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\UnderstandingDelegatesSolution\UnderstandingDelegatesApp\obj\Debug\UnderstandingDelegatesApp.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\UnderstandingDelegatesSolution\UnderstandingDelegatesApp\obj\Debug\UnderstandingDelegatesApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\UnderstandingDelegatesSolution\UnderstandingDelegatesApp\obj\Debug\UnderstandingDelegatesApp.pdb

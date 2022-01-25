@@ -1,0 +1,8 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\bin\Debug\CSharpFeaturesApp.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\bin\Debug\CSharpFeaturesApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\bin\Debug\CSharpFeaturesApp.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\obj\Debug\CSharpFeaturesApp.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\obj\Debug\CSharpFeaturesApp.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\obj\Debug\CSharpFeaturesApp.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\obj\Debug\CSharpFeaturesApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day7\CSharpFeaturesSol\CSharpFeaturesApp\obj\Debug\CSharpFeaturesApp.pdb

@@ -9,7 +9,8 @@ namespace PizzaFEConsoleApp
 {
     internal class ManageMenu 
     {
-        Pizza[] pizzas;
+        //Pizza[] pizzas;
+        List<Pizza> pizzas;
         public Pizza this[int index]
         {
             get { return pizzas[index]; }
@@ -17,42 +18,51 @@ namespace PizzaFEConsoleApp
         }
         public ManageMenu()
         {
-            pizzas = new Pizza[3];
+            //pizzas = new Pizza[3];
+            pizzas = new List<Pizza>();
         }
         public ManageMenu(int size)
         {
-            pizzas = new Pizza[size];
+            //pizzas = new Pizza[size];
         }
         public void AddPizzas()
         {
-            for (int i = 0; i < pizzas.Length; i++)
-            {
-                int id = GenerateId();
-                pizzas[i] = new Pizza();
-                pizzas[i].Id = id;
-                pizzas[i].GetPizzaDetails();
-            }
+            //for (int i = 0; i < pizzas.Length; i++)
+            //for (int i = 0; i < pizzas.Count; i++)
+            //{
+            //    int id = GenerateId();
+            //    pizzas[i] = new Pizza();
+            //    pizzas[i].Id = id;
+            //    pizzas[i].GetPizzaDetails();
+            //}
+            Pizza pizza = new Pizza();
+            pizza.Id = GenerateId();
+            pizza.GetPizzaDetails();
+            pizzas.Add(pizza);
         }
 
         private int GenerateId()
         {
-            if(pizzas[0]==null)
+            //if(pizzas[0]==null)
+            //    return 101;
+            //else
+            //{
+            //    for (int i = 0; i < pizzas.Length; i++)
+            //    {
+            //        if (pizzas[i] == null)
+            //            return 101 + i;
+            //    }
+            //}
+            if(pizzas.Count == 0)
                 return 101;
-            else
-            {
-                for (int i = 0; i < pizzas.Length; i++)
-                {
-                    if (pizzas[i] == null)
-                        return 101 + i;
-                }
-            }
-            return 0;
+            return pizzas.Count+100;
         }
 
         public Pizza GetPizzaById(int id)
         {
             Pizza pizza = null;
-            for (int i = 0; i < pizzas.Length; i++)
+            //for (int i = 0; i < pizzas.Length; i++)
+            for (int i = 0; i < pizzas.Count; i++)
             {
                 if(pizzas[i].Id==id)
                     pizza = pizzas[i];
@@ -84,7 +94,8 @@ namespace PizzaFEConsoleApp
         {
             int id = GetIdFromUser();
             int idx = -1;
-            for (int i = 0; i < pizzas.Length; i++)
+            //for (int i = 0; i < pizzas.Length; i++)
+            for (int i = 0; i < pizzas.Count; i++)
             {
                 if (pizzas[i].Id == id)
                     idx = i;
@@ -96,7 +107,8 @@ namespace PizzaFEConsoleApp
                 PrintPizza(pizza);
                 string check = Console.ReadLine();
                 if (check == "yes")
-                    pizzas[idx] = null;
+                    pizzas.RemoveAt(idx);
+                    //pizzas[idx] = null;
             }
            
         }
@@ -112,7 +124,8 @@ namespace PizzaFEConsoleApp
         }
         public void PrintPizzas()
         {
-            Array.Sort(pizzas);
+            //Array.Sort(pizzas);
+            pizzas.Sort();
             foreach (var item in pizzas)
             {
                 if(item != null)

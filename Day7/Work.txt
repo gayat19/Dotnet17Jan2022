@@ -1,0 +1,191 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+
+namespace UnderstandingCollectionsApp
+{
+    internal class Program
+    {
+        void UnderstandingList()
+        {
+          //ArrayList list = new ArrayList();
+          //  list.Add(100);
+          //  list.Add(30);
+          //  list.Add("70");
+          //  list.Add(45);
+          //  list.Add("Seven");
+          //  int sum = 0;
+          //  foreach (var item in list)
+          //  {
+          //      Console.WriteLine(item);
+          //      sum = sum + Convert.ToInt32(item);
+          //  }
+            List<int> list = new List<int>();
+            list.Add(100);
+            list.Add(30);
+            list.Add(70);
+            list.Add(45);
+            list.Add(7);
+            int sum = 0;
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+                sum = sum + Convert.ToInt32(item);
+            }
+            Console.WriteLine("Item in 3rd position "+list[2]);
+        }
+        static void Main(string[] args)
+        {
+            new Program().UnderstandingList();
+            Console.ReadKey();
+        }
+    }
+}
+
+void UnderstandingStack()
+        {
+            Stack<string> names = new Stack<string>();
+            names.Push("Tim");
+            names.Push("Jim");
+            names.Push("Kim");
+            names.Push("Lim");
+            foreach (var item in names)
+                Console.WriteLine(item);
+            Console.WriteLine(names.Count);
+            //Console.WriteLine(names.Pop());
+            Console.WriteLine(names.Peek());
+            Console.WriteLine(names.Count);
+        }
+         void UnderstandingDictionary()
+        {
+            Dictionary<int,string> users = new Dictionary<int,string>();
+            users.Add(101, "Tim");
+            users.Add(102, "Lim");
+            users.Add(103, "Kim");
+            users.Add(104, null);
+            foreach (var item in users.Keys)
+                Console.WriteLine(item+" "+users[item]);
+            if(users.ContainsKey(104))
+                Console.WriteLine("Key 104 already present");
+            Console.WriteLine(users.ContainsValue("Jim"));
+        }
+        
+      void UnderstandingCheckedBlock()
+        {
+            int num = int.MaxValue;
+            Console.WriteLine(num);
+            checked
+            {
+                num++;
+                Console.WriteLine(num);
+            }
+        }
+        void NullablePrimitiveTypes()
+        {
+            int? num1 = 100;
+            //num1 = null;
+            int num2 = num1 ?? 10;
+            Console.WriteLine(num2);
+        }
+        bool MethodWithOut(int value,out int  value2)
+        {
+            value2 = value*50;
+            return true;
+        }
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+            int v1 = 10, v2 = 0;
+            program.MethodWithOut(v1, out v2);
+            Console.WriteLine(v2);
+            Console.ReadKey();
+        }
+        
+         internal class Sample
+    {
+        public delegate void SampleDelegate(int n1,int n2);
+        public SampleDelegate MyDel;
+        public Sample()
+        {
+            //MyDel = new SampleDelegate(Add);
+            MyDel = delegate (int n1, int n2)
+            {
+                Console.WriteLine("The sum is " + (n1 + n2));
+            };
+            //MyDel += Product;
+            MyDel += delegate (int n1, int n2)
+            {
+                Console.WriteLine("The product is " + (n1 * n2));
+            };
+            MyDel += (n1, n2) => Console.WriteLine("The product is " + (n1 * n2));
+        }
+        void Add(int num1,int num2)
+        {
+            int sum = num1+ num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+      
+    }
+    static void Main(string[] args)
+        {
+            Sample s = new Sample();
+            s.MyDel(10, 20);
+            Console.ReadKey();
+        }
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UnderstandingDelegatesApp
+{
+    internal class Sample
+    {
+        //public delegate void SampleDelegate(int n1,int n2);
+        public delegate void SampleDelegate<T>(T n1, T n2);
+        public SampleDelegate<int> MyDel;
+        public SampleDelegate<string> MyStringDel;
+        public Sample()
+        {
+            //MyDel = new SampleDelegate(Add);
+            MyDel = delegate (int n1, int n2)
+            {
+                Console.WriteLine("The sum is " + (n1 + n2));
+            };
+            //MyDel += Product;
+            //MyDel += delegate (int n1, int n2)
+            //{
+            //    Console.WriteLine("The product is " + (n1 * n2));
+            //};
+            MyDel += (n1, n2) => Console.WriteLine("The product is " + (n1 * n2));
+            MyStringDel = new SampleDelegate<string>(Add);
+        }
+        void Add(int num1,int num2)
+        {
+            int sum = num1+ num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Add(string num1, string num2)
+        {
+            string sum = num1 + num2;
+            Console.WriteLine("The result is " + sum);
+        }
+        //void Product(int num1, int num2)
+        //{
+        //    int sum = num1 * num2;
+        //    Console.WriteLine("The product is " + sum);
+        //}
+
+    }
+}
+static void Main(string[] args)
+        {
+            Sample s = new Sample();
+            s.MyDel(10, 20);
+            s.MyStringDel("Hello ", "World!!!");
+            Console.ReadKey();
+        }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "01c23143-cf20-45e2-945a-e69a094dc710": {
+      "ProjectGuid": "01c23143-cf20-45e2-945a-e69a094dc710",
+      "DisplayName": "UnderstandingDelegatesApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

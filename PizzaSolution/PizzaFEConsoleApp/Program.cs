@@ -27,29 +27,52 @@ namespace PizzaFEConsoleApp
                 {
                     Console.WriteLine("Try again. Please enter a number");
                 }
-                switch (choice)
+                try
                 {
-                    case 1:
-                        menu.AddPizzas();
-                        break;
-                    case 2:
-                        menu.EditPizzaPrice();
-                        break;
-                    case 3:
-                        menu.RemovePizza();
-                        break;
-                    case 4:
-                        menu.PrintSinglePizzaByID();
-                        break;
-                    case 5:
-                        menu.PrintPizzas();
-                        break;
-                    case 0:
-                        Console.WriteLine("Bey bye..........");
-                        break;
-                    default:
-                        Console.WriteLine("Invalid choice. Please try again");
-                        break;
+                    switch (choice)
+                    {
+                        case 1:
+                            menu.AddPizzas();
+                            break;
+                        case 2:
+                            menu.EditPizzaPrice();
+                            break;
+                        case 3:
+                            menu.RemovePizza();
+                            break;
+                        case 4:
+                            menu.PrintSinglePizzaByID();
+                            break;
+                        case 5:
+                            menu.PrintPizzas();
+                            break;
+                        case 0:
+                            Console.WriteLine("Bey bye..........");
+                            break;
+                        default:
+                            Console.WriteLine("Invalid choice. Please try again");
+                            break;
+                    }
+                }
+                catch (NullReferenceException nre)
+                {
+                    Console.WriteLine("Null by mistake");
+                    Console.WriteLine(nre.Message);
+                }
+                catch (ArgumentOutOfRangeException aore)
+                {
+                    Console.WriteLine("The pizza could not be found");
+                    Console.WriteLine(aore.Message);
+                }
+                catch (FormatException fe)
+                {
+                    Console.WriteLine("expecting a number");
+                    Console.WriteLine(fe.Message);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Something went wrong");
+                    Console.WriteLine(e.Message);
                 }
             } while (choice != 0);
         }

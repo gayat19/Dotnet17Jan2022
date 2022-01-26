@@ -69,7 +69,7 @@ namespace PizzaFEConsoleApp
             //}
             //Predicate<Pizza> findPizza = p=>p.Id== id;
             //Pizza pizza = pizzas.Find(findPizza);
-            Pizza pizza = pizzas.Find(p => p.Id == id);
+            Pizza pizza = pizzas.SingleOrDefault(p => p.Id == id);
             return pizza;
         }
         public void EditPizzaPrice()
@@ -97,11 +97,19 @@ namespace PizzaFEConsoleApp
         {
             int id = GetIdFromUser();
             int idx = -1;
-            //for (int i = 0; i < pizzas.Length; i++)
-            for (int i = 0; i < pizzas.Count; i++)
+            ////for (int i = 0; i < pizzas.Length; i++)
+            //for (int i = 0; i < pizzas.Count; i++)
+            //{
+            //    if (pizzas[i].Id == id)
+            //        idx = i;
+            //}
+            try
             {
-                if (pizzas[i].Id == id)
-                    idx = i;
+                idx = pizzas.SingleOrDefault(p => p.Id == id).Id;
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("No such pizza");
             }
             Pizza pizza = GetPizzaById(id);
             if(idx != -1)
@@ -128,8 +136,9 @@ namespace PizzaFEConsoleApp
         public void PrintPizzas()
         {
             //Array.Sort(pizzas);
-            pizzas.Sort();
-            foreach (var item in pizzas)
+            // pizzas.Sort();
+            var sortedPizzas = pizzas.OrderBy(p => p.Price);
+            foreach (var item in sortedPizzas)
             {
                 if(item != null)
                     PrintPizza(item);

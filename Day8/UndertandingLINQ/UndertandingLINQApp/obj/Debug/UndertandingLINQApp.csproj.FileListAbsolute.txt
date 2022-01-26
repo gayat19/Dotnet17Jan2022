@@ -1,0 +1,8 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\bin\Debug\UndertandingLINQApp.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\bin\Debug\UndertandingLINQApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\bin\Debug\UndertandingLINQApp.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\obj\Debug\UndertandingLINQApp.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\obj\Debug\UndertandingLINQApp.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\obj\Debug\UndertandingLINQApp.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\obj\Debug\UndertandingLINQApp.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day8\UndertandingLINQ\UndertandingLINQApp\obj\Debug\UndertandingLINQApp.pdb

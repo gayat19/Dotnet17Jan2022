@@ -1,0 +1,95 @@
+Welcome to the clinic 
+Key in 1 if you are a doctor
+key in 2 if you are a patient
+1
+Hello Doctor
+Please enter your username
+abc
+please enter your password
+123
+Welcome Dr. DDDD
+Choose from the options
+1. View  your appointments
+2. View your past appointments
+3. Raise payment request for an appointment
+0. Exit
+1
+-------------------------
+Appoitment Id :0030
+Patient Id - 101
+Appoitment Date : 25-Jan-2022
+Appoitment Time : 14:00
+-------------------------
+Appoitment Id :0032
+Patient Id - 104
+Appoitment Date : 25-Jan-2022
+Appoitment Time : 15:00
+=================================
+Choose from the options
+1. View  your appointments
+2. View your past appointments
+3. Raise payment request for an appointment
+0. Exit
+2
+-------------------------
+Appoitment Id :0020
+Patient Id - 102
+Appoitment Date : 20-Jan-2022
+Appoitment Time : 14:00
+Remarks : blah blah
+Amount  : 100
+Payment status : Paid
+-------------------------
+Appoitment Id :0025
+Patient Id - 102
+Appoitment Date : 24-Jan-2022
+Appoitment Time : 15:00
+Remarks : blah blah
+Amount  : 50
+Payment status : Pending payment
+
+=================================
+=================================
+Choose from the options
+1. View  your appointments
+2. View your past appointments
+3. Raise payment request for an appointment
+0. Exit
+3
+Please select an appoitment for raising payment request
+------------------------
+Appoitment Id :0030
+Patient Id - 101
+Appoitment Date : 25-Jan-2022
+Appoitment Time : 14:00
+-------------------------
+Appoitment Id :0032
+Patient Id - 104
+Appoitment Date : 25-Jan-2022
+Appoitment Time : 15:00
+
+Please enter the appoitment ID
+0030
+Please enter any message to be saved
+abcd
+Please enter the amount to be collected
+200
+Updated 
+
+=================================
+
+Appoitment Id :0030
+Patient Id - 101
+Appoitment Date : 25-Jan-2022
+Appoitment Time : 14:00
+Remarks : abcd
+Amount  : 200
+Payment status : Pending payment
+=================================
+Choose from the options
+1. View  your appointments
+2. View your past appointments
+3. Raise payment request for an appointment
+0. Exit
+0
+Bye Doctor..............

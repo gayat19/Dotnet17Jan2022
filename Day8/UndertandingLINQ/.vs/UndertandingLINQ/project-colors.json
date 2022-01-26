@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b0ffe5d9-4483-44af-b2b0-f80394a5d019": {
+      "ProjectGuid": "b0ffe5d9-4483-44af-b2b0-f80394a5d019",
+      "DisplayName": "UndertandingLINQApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

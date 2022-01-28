@@ -1,0 +1,8 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\bin\Debug\UnderstandingADOApplication.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\bin\Debug\UnderstandingADOApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\bin\Debug\UnderstandingADOApplication.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day10\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.pdb

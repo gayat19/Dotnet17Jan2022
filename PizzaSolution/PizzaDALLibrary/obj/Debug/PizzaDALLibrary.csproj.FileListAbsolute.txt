@@ -1,0 +1,9 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaDALLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaDALLibrary.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaModelsLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaModelsLibrary.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.csproj.CopyComplete
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.pdb

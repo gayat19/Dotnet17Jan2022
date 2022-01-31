@@ -46,7 +46,7 @@ namespace PizzaModelsLibrary
             return "Pizza ID " + Id
                 + "\nPizza Name " + Name
                 + "\nPizza Is Veg? " + IsVeg
-                + "\nPizza Price " + Price;
+                + "\nPizza Price " + Math.Round(Price,2);
         }
     }
 }

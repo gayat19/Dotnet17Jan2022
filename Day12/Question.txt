@@ -1,0 +1,34 @@
+Use code first approch for careating the following application
+Application should allow user to add, update and read-> departments and employees
+
+Points to note
+One department can have any number of employees
+One employee can be in only one department
+While adding the employee please list the departments and ask the user to choose one
+validate the data
+
+Sample Menu
+1. Add department
+2. Edit department name
+3. Print Departments
+4. Add employee
+5. Edit employee age
+6. Edit employee department
+7. Print all employees
+8. Exit
+
+
+class Employee{
+int Id
+string Name
+int Age
+int Department_Id
+[ForeignKey("Department_Id")]
+Department department
+}
+
+class Department{
+int Id;
+string Name;
+ICollection<Employee> employees;
+}

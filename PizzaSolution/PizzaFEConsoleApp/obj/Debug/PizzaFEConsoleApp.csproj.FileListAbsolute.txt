@@ -14,3 +14,5 @@ E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bi
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaDALEFLibrary.pdb
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaDALEFLibrary.dll.config
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\EntityFramework.xml
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaFEConsoleApp\bin\Debug\EntityFramework.SqlServer.xml

@@ -12,9 +12,9 @@ namespace PizzaModelsLibrary
     {
         [Key]
         public int CartNumber { get; set; }
-        public int CustomerRef { get; set; }
+        public int CustomerNumber { get; set; }
 
-        [ForeignKey("CustomerRef")]
+        [ForeignKey("CustomerNumber")]
         public Customer Customer { get; set; }
         public ICollection<Pizza> Pizzas { get; set; }
     }

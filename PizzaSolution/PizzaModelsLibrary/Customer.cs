@@ -65,7 +65,7 @@ namespace PizzaModelsLibrary
             return c1.CustomerNumber.CompareTo(c2.CustomerNumber);
         }
        
-        public Cart MyCart { get; set; }
+      
 
     }
 }

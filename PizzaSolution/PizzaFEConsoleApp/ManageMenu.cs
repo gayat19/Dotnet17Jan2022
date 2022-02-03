@@ -67,6 +67,7 @@ namespace PizzaFEConsoleApp
             catch (Exception e)
             {
                 Console.WriteLine("Could not add the pizza");
+                Console.WriteLine(e.StackTrace);
                 Console.WriteLine(e.Message);
             }
         }

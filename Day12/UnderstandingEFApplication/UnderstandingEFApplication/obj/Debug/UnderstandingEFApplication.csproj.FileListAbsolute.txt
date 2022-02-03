@@ -1,0 +1,13 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.exe.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.SqlServer.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.xml
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\bin\Debug\EntityFramework.SqlServer.xml
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.SuggestedBindingRedirects.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.CopyComplete
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day12\UnderstandingEFApplication\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.pdb

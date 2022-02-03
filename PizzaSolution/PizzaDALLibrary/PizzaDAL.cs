@@ -59,7 +59,7 @@ namespace PizzaDALLibrary
         public bool UpdatePizzaPrice(int id,float price)
         {
             SqlCommand cmd = new SqlCommand("proc_UpdatePizzaPrice", conn);
-            ConnectionState.
+
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@pid", id);
             cmd.Parameters.AddWithValue("@pprice", price);

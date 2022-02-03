@@ -52,9 +52,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PizzaDALLibrary\PizzaDALLibrary.csproj">
-      <Project>{f92e5d59-42e4-4d02-a774-21fd24a2bd94}</Project>
-      <Name>PizzaDALLibrary</Name>
+    <ProjectReference Include="..\PizzaDALEFLibrary\PizzaDALEFLibrary.csproj">
+      <Project>{3f0dfbe5-b071-428e-ac42-4218a92181b0}</Project>
+      <Name>PizzaDALEFLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\PizzaModelsLibrary\PizzaModelsLibrary.csproj">
       <Project>{535e37d0-1612-4a70-b974-29df7a7ceeb9}</Project>

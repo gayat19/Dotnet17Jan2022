@@ -25,10 +25,47 @@ namespace UnderstandingEFApplication
                 Console.WriteLine("---------------------------");
             }
         }
+        void InsertStore()
+        {
+            store store = new store();
+            store.stor_id = "1234";
+            store.stor_name = "ABCD";
+            store.stor_address = "here";
+            store.city = "Tustin";
+            store.state = "CA";
+            store.zip = "92789";
+            _entities.stores.Add(store);
+            _entities.SaveChanges();
+            Console.WriteLine("Store addeed");
+        }
+        void EditStore()
+        {
+            store store = _entities.stores.FirstOrDefault(s => s.stor_id == "1234");
+            if (store == null)
+            {
+                Console.WriteLine("No such store");
+                return;
+            }
+            store.stor_name = "XYZ";
+            _entities.SaveChanges();
+            Console.WriteLine("Store updated");
+        }
+        void RemoveStore()
+        {
+            store store = _entities.stores.FirstOrDefault(s => s.stor_id == "1234");
+            if (store == null)
+            {
+                Console.WriteLine("No such store");
+                return;
+            }
+            _entities.stores.Remove(store);
+            _entities.SaveChanges();
+            Console.WriteLine("Store deleted");
+        }
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.PrintAuthors();
+            program.RemoveStore();
             Console.ReadKey();
         }
     }

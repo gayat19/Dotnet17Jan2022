@@ -1,0 +1,14 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaDALEFLibrary.dll.config
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaDALEFLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaDALEFLibrary.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaModelsLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaModelsLibrary.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.xml
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.csproj.CopyComplete
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.pdb

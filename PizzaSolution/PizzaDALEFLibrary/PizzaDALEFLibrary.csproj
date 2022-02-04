@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CartDAL.cs" />
     <Compile Include="PizzaContext.cs" />
     <Compile Include="PizzaDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

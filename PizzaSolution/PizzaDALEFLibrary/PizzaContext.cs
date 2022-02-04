@@ -22,7 +22,9 @@ namespace PizzaDALEFLibrary
         public DbSet<CartPizzas> CartsPizzas { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            
             modelBuilder.Entity<CartPizzas>().HasKey(cp => new{ cp.PizzaId,cp.CartNumber});
+           
         }
     }
 }

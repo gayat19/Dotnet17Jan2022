@@ -20,7 +20,12 @@
       "ProjectGuid": "f92e5d59-42e4-4d02-a774-21fd24a2bd94",
       "DisplayName": "PizzaDALLibrary",
       "ColorIndex": 2
+    },
+    "3f0dfbe5-b071-428e-ac42-4218a92181b0": {
+      "ProjectGuid": "3f0dfbe5-b071-428e-ac42-4218a92181b0",
+      "DisplayName": "PizzaDALEFLibrary",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

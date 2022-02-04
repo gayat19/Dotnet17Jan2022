@@ -22,9 +22,9 @@ namespace PizzaFEConsoleApp
                     case "Standard":
                         customer = new Customer();
                         break;
-                    case "Gold":
-                        customer = new GoldCustomer();
-                        break;
+                    //case "Gold":
+                    //    customer = new GoldCustomer();
+                    //    break;
                     default:
                         Console.WriteLine("Invalid Entry. Treating as standard");
                         customer = new Customer();

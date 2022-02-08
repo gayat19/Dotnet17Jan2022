@@ -1,0 +1,15 @@
+Create a registration page with help of HTML, CSS and Bootstrap
+
+username
+password
+re-type password
+age 18-56
+phone 
+email
+gender -. radio
+
+
+2) Create a page which will take customer name and phone
+Add the given data to an array of objects
+show the array of objects  in a table down bellow
+

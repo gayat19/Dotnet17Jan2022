@@ -1,0 +1,19 @@
+﻿#divLogin {
+    /* border: double 2px brown;*/
+    width: 450px;
+    height: 300px;
+    left: 600px;
+    top:250px;
+    position: absolute;
+   /* padding: 20px 10px;*/
+}
+
+.clsInput {
+    position: absolute;
+    left: 180px;
+}
+
+#spanButtons {
+    position: absolute;
+    left: 100px;
+}

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body{
+            background-color:antiquewhite;
+        }
+        #divLogin {
+           /* border: double 2px brown;*/
+           border-style:double;
+           border-width:4px;
+           border-color:brown;
+            width: 350px;
+            height:120px;
+            left: 600px;
+            position:absolute;
+            top:250px;
+            border-radius:20px;
+            padding: 20px 10px;
+        }
+        .clsInput{
+            position:absolute;
+            left:180px;
+        }
+        #spanButtons{
+            position:absolute;
+            left:100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="divLogin">
+        <form action="Home.html">
+            <label>Username</label>
+            <input class="clsInput" required type="text" />
+            <br /> <br />
+            <label>Password</label>
+            <input class="clsInput" pattern="[A-Za-z][A-Za-z]*[0-9]*" type="password" />
+            <br /> <br /><br /> 
+
+            <span id="spanButtons">
+                <input type="submit" value="Login" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Cancel" />
+            </span>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿@model EmptyWebApplication.Models.Toppings
+<h1>
+    Hey here is your waffle
+</h1>
+
+@for (var i = 1; i < 5; i++)
+{
+    <li>@i</li>
+}
+
+@*Add on syrup : <h2>@ViewBag.Toppings.Syrp</h2>
+Sprinkled with : <h2>@ViewBag.Toppings.Sprinkles</h2>*@
+
+
+@*Rendering*@
+
+
+Add on syrup : <h2>@Model.Syrup</h2>
+Sprinkled with : <h2>@Model.Sprinkles</h2>

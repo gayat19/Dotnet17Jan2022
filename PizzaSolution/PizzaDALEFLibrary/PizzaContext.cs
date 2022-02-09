@@ -12,10 +12,11 @@ namespace PizzaDALEFLibrary
     internal class PizzaContext : DbContext
     {
 
-        public PizzaContext():base("conn")
+        public PizzaContext():base("name=conn")
         {
 
         }
+
         public DbSet<Pizza> Pizzas { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Cart> Carts { get; set; }

@@ -25,7 +25,12 @@
       "ProjectGuid": "3f0dfbe5-b071-428e-ac42-4218a92181b0",
       "DisplayName": "PizzaDALEFLibrary",
       "ColorIndex": 3
+    },
+    "52ea6fa7-292f-4115-9835-3e423b4e83d1": {
+      "ProjectGuid": "52ea6fa7-292f-4115-9835-3e423b4e83d1",
+      "DisplayName": "PizzaWebApp",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

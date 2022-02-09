@@ -1,0 +1,14 @@
+﻿@model PizzaApplication.Models.Pizza
+
+<form action="Create" method="post">
+    <label class="form-control">Pizza ID</label>
+    <input type="number" name=id class="form-control" />
+     <label class="form-control">Pizza Name</label>
+    <input type="text" name=name class="form-control" />
+     <label class="form-control">Pizza Price</label>
+    <input type="number" name=price class="form-control" />
+    <div class = "checkbox">
+            <label> <input type = "checkbox" name="isVeg"> Is Veg? </label>
+         </div>
+    <input type="submit" value="Create Pizza" class="btn btn-success"/>
+</form>

@@ -9,14 +9,14 @@ namespace PizzaApplication.Controllers
         {
             new Pizza()
             {
-                Id = 1,
+                PizzaID = 1,
                 Name ="ABC",
                 IsVeg = true,
                 Price = 12.4
             },
              new Pizza()
             {
-                Id = 2,
+                PizzaID = 2,
                 Name ="BBB",
                 IsVeg = false,
                 Price = 45.7
@@ -31,7 +31,7 @@ namespace PizzaApplication.Controllers
         public IActionResult Create()
         {
             
-            return View();
+            return View(new Pizza());
         }
         [HttpPost]
         //public IActionResult Create(IFormCollection keyValues)

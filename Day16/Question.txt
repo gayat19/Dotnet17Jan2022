@@ -1,0 +1,13 @@
+Create a MVC application that will take the Product details from the user
+
+Product
+  Id
+  Name
+  Price
+  SupplierId
+  Quantity
+  Remarks
+
+Implement the List and Create for the product using Controller and Views
+
+Explore edit and details options as well

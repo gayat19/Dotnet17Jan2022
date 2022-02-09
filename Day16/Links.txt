@@ -1,0 +1,4 @@
+https://www.c-sharpcorner.com/UploadFile/18585c/mvc-architecture-mvc-life-cycle/
+
+
+https://dotnet.microsoft.com/en-us/apps/aspnet/mvc

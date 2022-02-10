@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lEAEcWAjugMnTAkuhdnxKxK++EWzeUJ2NHL30J7LRjY=",
+  "Hash": "u24RmL8jMAOUPbt/VsJOVfSASbAW+i5LYQ+I9iXx0Hk=",
   "Source": "PizzaApplication",
   "BasePath": "_content/PizzaApplication",
   "Mode": "Default",
@@ -83,6 +83,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\images\\Pizza1.jpg",
+      "SourceId": "PizzaApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\",
+      "BasePath": "_content/PizzaApplication",
+      "RelativePath": "images/Pizza1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizza1.jpg"
+    },
+    {
+      "Identity": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\images\\Pizza2.jpg",
+      "SourceId": "PizzaApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\",
+      "BasePath": "_content/PizzaApplication",
+      "RelativePath": "images/Pizza2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizza2.jpg"
+    },
+    {
+      "Identity": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\images\\Pizza3.jpg",
+      "SourceId": "PizzaApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\",
+      "BasePath": "_content/PizzaApplication",
+      "RelativePath": "images/Pizza3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pizza3.jpg"
     },
     {
       "Identity": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\js\\site.js",
@@ -1069,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\pages\\homepage.html",
+      "SourceId": "PizzaApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Corp\\Cognixia\\Dotnet17Jan2022\\Participants\\Day16\\PizzaSolution\\PizzaApplication\\wwwroot\\",
+      "BasePath": "_content/PizzaApplication",
+      "RelativePath": "pages/homepage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\homepage.html"
     }
   ]
 }

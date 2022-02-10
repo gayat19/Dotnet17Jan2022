@@ -9,7 +9,7 @@ namespace PizzaApplication.Services
             new Pizza()
             {
                 PizzaID = 1,
-                Name ="ABC",
+                Name ="HHH",
                 IsVeg = true,
                 Price = 12.4,
                 Pic = "/images/Pizza1.jpg",
@@ -18,7 +18,7 @@ namespace PizzaApplication.Services
              new Pizza()
             {
                 PizzaID = 2,
-                Name ="BBB",
+                Name ="PLI",
                 IsVeg = false,
                 Price = 45.7,
                 Pic = "/images/Pizza2.jpg",

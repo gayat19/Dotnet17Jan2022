@@ -1,0 +1,8 @@
+Create a MVC application that will take the customer data
+
+CustomerName
+Age
+Phone
+ 
+to put it database
+Implement the CRUDusing DI and Repo

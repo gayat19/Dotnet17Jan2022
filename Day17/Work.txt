@@ -1,0 +1,13 @@
+Details 
+Edit
+  Parameter
+
+Pic 
+StaticFiles
+
+EF Connection
+
+PM Console
+
+Add-Migration <SomeName>
+update-database

@@ -11,3 +11,5 @@ PM Console
 
 Add-Migration <SomeName>
 update-database
+
+https://code-maze.com/net-core-web-api-ef-core-code-first/

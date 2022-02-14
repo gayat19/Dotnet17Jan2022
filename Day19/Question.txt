@@ -1,0 +1,15 @@
+Create an application that will allow user to add a products to the given product list
+
+Product(Id, Name, Category, Price, Quantity, Pic, description)
+
+while adding the product the product the category should be Food, Toy, Clothing
+
+Price and quantity  cannot be negative
+
+Maximum of 20 units  only can be stored for every product
+
+The data to reflect in database
+
+While listing the products list in card layout with a buy button ->Index
+Add a quantity to buy in the layout
+When teh user clicks the buy button show total price and show big picture of teh product with the compelet description -> Details

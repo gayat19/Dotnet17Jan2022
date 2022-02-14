@@ -10,13 +10,13 @@ namespace SampleMVCTogetherApp.Services
         {
             _context = context;
         }
-        public bool Add(Customer item)
+
+        public Customer Add(Customer item)
         {
             _context.Customers.Add(item);
             _context.SaveChanges();
-            return true;
+            return item;
         }
-
         public Customer Get(int id)
         {
            Customer customer = _context.Customers.FirstOrDefault(x => x.Id == id);

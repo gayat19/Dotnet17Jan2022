@@ -13,6 +13,7 @@ builder.Services.AddDbContext<ShopContext>(opts =>
 });
 //Injecting the service
 builder.Services.AddScoped<IRepo<int, Customer>, CustomerRepo>();
+builder.Services.AddScoped<IAdding<string, User>, UserRepo>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -39,8 +39,12 @@ namespace SampleMVCTogetherApp.Controllers
         [HttpPost]
         public IActionResult Create( Customer customer)
         {
-            _repo.Add(customer);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _repo.Add(customer);
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Create");
         }
         public IActionResult Delete(int id)
         {

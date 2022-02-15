@@ -63,6 +63,7 @@ namespace SampleMVCTogetherApp.Controllers
            if(myuser == null) 
              return View();
             HttpContext.Session.SetString("un", user.Username);
+            
             return RedirectToAction("ShowProducts", "Home");
         }
         IEnumerable<SelectListItem> GetUserRoles()

@@ -7,7 +7,10 @@ namespace SampleMVCTogetherApp.Services
     public class UserRepo : IRepo<string, User>
     {
         private readonly ShopContext _context;
+        public UserRepo()
+        {
 
+        }
         public UserRepo(ShopContext context)
         {
             _context = context;
@@ -30,7 +33,7 @@ namespace SampleMVCTogetherApp.Services
             return null;
         }
 
-        public User Get(string id)
+        public virtual User Get(string id)
         {
             var user = _context.Users.SingleOrDefault(u=>u.Username==id);
             return user;

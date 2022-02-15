@@ -17,6 +17,16 @@ namespace SampleMVCTogetherApp.Controllers
         {
             return View();
         }
+        public IActionResult ShowProducts()
+        {
+            List<Product> products = new List<Product>()
+            {
+                new Product(){Id = 1, Name ="Doll"},
+                new Product(){Id = 2, Name ="Toffee"}
+            };
+            ViewBag.Username = HttpContext.Session.GetString("un");
+            return View(products);
+        }
 
         public IActionResult Privacy()
         {

@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Create";
 }
-
+@Html.Partial("_Welcome")
 <h1>Create</h1>
 
 <h4>Customer</h4>
@@ -32,6 +32,9 @@
 
 <div>
     <a asp-action="Index">Back to List</a>
+</div>
+<div>
+    @Html.Partial("_ProductPartial",new Product(){Id=101,Name="Doll"})
 </div>
 
 @section Scripts {

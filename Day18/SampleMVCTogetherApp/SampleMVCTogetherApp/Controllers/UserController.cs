@@ -8,13 +8,17 @@ namespace SampleMVCTogetherApp.Controllers
 {
     public class UserController : Controller
     {
-        private readonly IAdding<string, User> _adding;
+        private readonly IRepo<string, User> _adding;
         private readonly IRepo<int, Customer> _repo;
+        private readonly LoginService _loginService;
 
-        public UserController(IAdding<string,User> adding,IRepo<int,Customer> repo)
+        public UserController(IRepo<string,User> adding,
+                                IRepo<int,Customer> repo,
+                               LoginService lservice)
         {
             _adding = adding;
             _repo = repo;
+            _loginService = lservice;
         }
         public IActionResult Register()
         {
@@ -50,8 +54,16 @@ namespace SampleMVCTogetherApp.Controllers
         }
         public IActionResult Login()
         {
-           
             return View();
+        }
+        [HttpPost]
+        public IActionResult Login(User user)
+        {
+            var myuser = _loginService.LoginCheck(user);
+           if(myuser == null) 
+             return View();
+            HttpContext.Session.SetString("un", user.Username);
+            return RedirectToAction("ShowProducts", "Home");
         }
         IEnumerable<SelectListItem> GetUserRoles()
         {

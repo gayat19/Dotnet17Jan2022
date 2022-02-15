@@ -35,12 +35,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Corp/Cognixia/Dotnet17Jan2022/Participants/Day18/SampleMVCTogetherApp/SampleMVCTogetherApp/Views/Home/ShowProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93UHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Corp/Cognixia/Dotnet17Jan2022/Participants/Day18/SampleMVCTogetherApp/SampleMVCTogetherApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Corp/Cognixia/Dotnet17Jan2022/Participants/Day18/SampleMVCTogetherApp/SampleMVCTogetherApp/Views/Shared/_ProductPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Corp/Cognixia/Dotnet17Jan2022/Participants/Day18/SampleMVCTogetherApp/SampleMVCTogetherApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Corp/Cognixia/Dotnet17Jan2022/Participants/Day18/SampleMVCTogetherApp/SampleMVCTogetherApp/Views/Shared/_Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Corp/Cognixia/Dotnet17Jan2022/Participants/Day18/SampleMVCTogetherApp/SampleMVCTogetherApp/Views/User/Login.cshtml]

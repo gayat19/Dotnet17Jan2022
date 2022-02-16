@@ -10,7 +10,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "0159e492-ec1d-4e2a-a2ab-9c561ea3214a": {
+      "ProjectGuid": "0159e492-ec1d-4e2a-a2ab-9c561ea3214a",
+      "DisplayName": "SampleMVCTogetherTest",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

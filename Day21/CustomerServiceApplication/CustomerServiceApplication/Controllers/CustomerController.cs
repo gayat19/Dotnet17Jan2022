@@ -21,9 +21,10 @@ namespace CustomerServiceApplication.Controllers
         }
 
         // GET: CustomerController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            return View();
+            var customer = await _repo.Get(id);
+            return View(customer);
         }
 
         // GET: CustomerController/Create
@@ -35,11 +36,11 @@ namespace CustomerServiceApplication.Controllers
         // POST: CustomerController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Customer customer)
+        public async Task<ActionResult> Create(Customer customer)
         {
             try
             {
-                _repo.Add(customer);
+                await _repo.Add(customer);
                 return RedirectToAction("Index");
             }
             catch
@@ -49,19 +50,21 @@ namespace CustomerServiceApplication.Controllers
         }
 
         // GET: CustomerController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
-            return View();
+            var customer = await _repo.Get(id);
+            return View(customer);
         }
 
         // POST: CustomerController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(int id, Customer customer)
         {
             try
             {
-                return RedirectToAction(nameof(IndexAsync));
+                await _repo.Update(customer);
+                return RedirectToAction("Index");
             }
             catch
             {
@@ -70,19 +73,21 @@ namespace CustomerServiceApplication.Controllers
         }
 
         // GET: CustomerController/Delete/5
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            return View();
+            var customer = await _repo.Get(id);
+            return View(customer);
         }
 
         // POST: CustomerController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> Delete(int id, Customer customer)
         {
             try
             {
-                return RedirectToAction(nameof(IndexAsync));
+               await _repo.Delete(id);
+                return RedirectToAction("Index");
             }
             catch
             {

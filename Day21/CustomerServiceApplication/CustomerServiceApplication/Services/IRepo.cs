@@ -2,10 +2,10 @@
 {
     public interface IRepo<K,T>
     {
-        T Get(K key);
+        Task<T> Get(K key);
         Task<IEnumerable<T>> GetAll();
-        T Delete(K key);
+        Task<T> Delete(K key);
         Task<T> Add(T item);
-        T Update(T item);
+        Task<T> Update(T item);
     }
 }

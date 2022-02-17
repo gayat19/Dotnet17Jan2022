@@ -31,14 +31,38 @@ namespace CustomerServiceApplication.Services
             return null;
         }
 
-        public Customer Delete(int key)
+        public async Task<Customer> Delete(int key)
         {
-            throw new NotImplementedException();
+            using (_httpClient)
+            {
+                using (var response = await _httpClient.DeleteAsync("http://localhost:5070/api/Customer?id="+key))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseText = await response.Content.ReadAsStringAsync();
+                        var customer = JsonConvert.DeserializeObject<Customer>(responseText);
+                        return customer;
+                    }
+                }
+            }
+            return null;
         }
 
-        public Customer Get(int key)
+        public async Task<Customer> Get(int key)
         {
-            throw new NotImplementedException();
+            using (_httpClient)
+            {
+                using (var response = await _httpClient.GetAsync("http://localhost:5070/api/Customer/SingleEmployee?id=" + key))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseText = await response.Content.ReadAsStringAsync();
+                        var customer = JsonConvert.DeserializeObject<Customer>(responseText);
+                        return customer;
+                    }
+                }
+            }
+            return null;
         }
 
         public async Task<IEnumerable<Customer>> GetAll()
@@ -58,9 +82,22 @@ namespace CustomerServiceApplication.Services
             return null;
         }
 
-        public Customer Update(Customer item)
+        public async Task<Customer> Update(Customer item)
         {
-            throw new NotImplementedException();
+            using (_httpClient)
+            {
+                StringContent content = new StringContent(JsonConvert.SerializeObject(item), Encoding.UTF8, "application/json");
+                using (var response = await _httpClient.PutAsync("http://localhost:5070/api/Customer?id=" + item.Id,content))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseText = await response.Content.ReadAsStringAsync();
+                        var customer = JsonConvert.DeserializeObject<Customer>(responseText);
+                        return customer;
+                    }
+                }
+            }
+            return null;
         }
 
        

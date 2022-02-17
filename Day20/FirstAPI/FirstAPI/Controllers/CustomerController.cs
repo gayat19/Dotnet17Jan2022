@@ -1,4 +1,5 @@
 ﻿using FirstAPI.Models;
+using FirstAPI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,50 +9,60 @@ namespace FirstAPI.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        static List<Customer> _customers = new List<Customer>
-        { new Customer { Id = 1, Name ="Tim",Age=23},
-            new Customer { Id =2, Name ="Jim",Age=33},
-            new Customer { Id = 3, Name ="Lim",Age=29}
-        };
-        [HttpGet]
-        public IEnumerable<Customer> Get()
+        private readonly IRepo<int, Customer> _repo;
+
+        public CustomerController(IRepo<int,Customer> repo)
         {
-            return _customers;
+            _repo = repo;
+        }
+        [HttpGet]
+        public ActionResult<IEnumerable<Customer>> Get()
+        {
+            List<Customer> customers = _repo.GetAll().ToList();
+            if (customers.Count == 0)
+                return BadRequest("No customers found");
+            return Ok(customers);
         }
 
         [HttpGet]
         [Route("SingleEmployee")]
-        public Customer Get(int id)
+        public ActionResult<Customer> Get(int id)
         {
-            return _customers.SingleOrDefault(c=>c.Id == id);
+            var customer = _repo.GetT(id);
+            if(customer == null)
+                return NotFound();
+            return Ok(customer);
         }
         [HttpPut]
-        public Customer Put(int id,Customer cust)
+        public ActionResult<Customer> Put(int id,Customer cust)
         {
-            var customer= _customers.SingleOrDefault(c => c.Id == id);
+            var customer= _repo.Update(cust);
             if(customer!=null)
             {
-                customer.Name = cust.Name;
-                customer.Age = cust.Age;
+                return Created("Updated",customer);
             }
-            return customer;        
+            return NotFound();
+
         }
         [HttpDelete]
-        public Customer Delete(int id)
+        public ActionResult<Customer> Delete(int id)
         {
-            var customer = _customers.IndexOf(_customers.Find(c=>c.Id==id));
-            if (customer != -1)
+            var customer = _repo.Delete(id);
+            if (customer != null)
             {
-                _customers.RemoveAt(customer);
-                return _customers.SingleOrDefault(c => c.Id == id);
+                return NoContent();
             }
-            return null;
+            return NotFound(customer);
         }
         [HttpPost]
-        public Customer Post(Customer customer)
+        public ActionResult<Customer> Post(Customer customer)
         {
-           _customers.Add(customer);
-            return customer;
+            var cust = _repo.Add(customer);
+            if (cust != null)
+            {
+                return Created("Customer Created",cust);
+            }
+            return BadRequest("Unable to create");
         }
     }
 }

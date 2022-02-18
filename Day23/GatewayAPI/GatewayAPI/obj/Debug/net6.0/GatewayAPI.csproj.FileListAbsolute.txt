@@ -63,3 +63,4 @@ E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day23\GatewayAPI\GatewayAPI\obj\De
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day23\GatewayAPI\GatewayAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day23\GatewayAPI\GatewayAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day23\GatewayAPI\GatewayAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day23\GatewayAPI\GatewayAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

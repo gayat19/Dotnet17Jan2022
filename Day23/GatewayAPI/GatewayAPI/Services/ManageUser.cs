@@ -7,10 +7,12 @@ namespace GatewayAPI.Services
     public class ManageUser : IManageUSer<UserDTO>
     {
         private readonly UserContext _context;
+        private readonly IGenerateToken<UserDTO> _token;
 
-        public ManageUser(UserContext context)
+        public ManageUser(UserContext context,IGenerateToken<UserDTO> token)
         {
             _context = context;
+            _token = token;
         }
         public async Task<UserDTO> Add(UserDTO user)
         {
@@ -24,7 +26,7 @@ namespace GatewayAPI.Services
             _context.Users.Add(user1);
             await _context.SaveChangesAsync();
             user.Password = "";
-            return new UserDTO() { Username=user.Username};
+            return new UserDTO() { Username=user.Username,Token= _token.CreateToken(user)};
         }
 
         public async Task<UserDTO> Login(UserDTO user)
@@ -40,7 +42,7 @@ namespace GatewayAPI.Services
                     return null;
             }
             user.Password = "";
-            return new UserDTO() { Username = user.Username };
+            return new UserDTO() { Username = user.Username, Token = _token.CreateToken(user) };
         }
     }
 }

@@ -1,9 +1,8 @@
-﻿using CustomerServiceApplication.Models;
+﻿using GatewayAPI.Models;
 using Newtonsoft.Json;
 using System.Text;
-using Microsoft.AspNetCore.Mvc;
 
-namespace CustomerServiceApplication.Services
+namespace GatewayAPI.Services
 {
     public class CustomerRepo : IRepo<int, Customer>
     {
@@ -12,14 +11,14 @@ namespace CustomerServiceApplication.Services
         public CustomerRepo()
         {
             _httpClient = new HttpClient();
-           
+
         }
         public async Task<Customer> Add(Customer item)
         {
             using (_httpClient)
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(item), Encoding.UTF8, "application/json");
-                using(var response = await _httpClient.PostAsync("http://localhost:5070/api/Customer", content))
+                using (var response = await _httpClient.PostAsync("http://localhost:5070/api/Customer", content))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -36,7 +35,7 @@ namespace CustomerServiceApplication.Services
         {
             using (_httpClient)
             {
-                using (var response = await _httpClient.DeleteAsync("http://localhost:5070/api/Customer?id="+key))
+                using (var response = await _httpClient.DeleteAsync("http://localhost:5070/api/Customer?id=" + key))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -68,10 +67,9 @@ namespace CustomerServiceApplication.Services
 
         public async Task<IEnumerable<Customer>> GetAll()
         {
-            
             using (_httpClient)
             {
-                using (var response = await _httpClient.GetAsync("http://localhost:5221/api/Customer/GetAllCustomers"))
+                using (var response = await _httpClient.GetAsync("http://localhost:5070/api/Customer"))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -89,7 +87,7 @@ namespace CustomerServiceApplication.Services
             using (_httpClient)
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(item), Encoding.UTF8, "application/json");
-                using (var response = await _httpClient.PutAsync("http://localhost:5070/api/Customer?id=" + item.Id,content))
+                using (var response = await _httpClient.PutAsync("http://localhost:5070/api/Customer?id=" + item.Id, content))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -102,6 +100,6 @@ namespace CustomerServiceApplication.Services
             return null;
         }
 
-       
+
     }
 }

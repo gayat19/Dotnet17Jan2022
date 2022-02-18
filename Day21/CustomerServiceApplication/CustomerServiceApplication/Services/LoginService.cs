@@ -22,8 +22,8 @@ namespace CustomerServiceApplication.Services
                     if (response.IsSuccessStatusCode)
                     {
                         string responseText = await response.Content.ReadAsStringAsync();
-                        var User = JsonConvert.DeserializeObject<User>(responseText);
-                        return user;
+                        var user1 = JsonConvert.DeserializeObject<User>(responseText);
+                        return user1;
                     }
                 }
             }
@@ -39,8 +39,8 @@ namespace CustomerServiceApplication.Services
                     if (response.IsSuccessStatusCode)
                     {
                         string responseText = await response.Content.ReadAsStringAsync();
-                        var User = JsonConvert.DeserializeObject<User>(responseText);
-                        return user;
+                        var user1 = JsonConvert.DeserializeObject<User>(responseText);
+                        return user1;
                     }
                 }
             }

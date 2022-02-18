@@ -16,8 +16,15 @@ namespace CustomerServiceApplication.Controllers
         // GET: CustomerController
         public async Task<ActionResult> IndexAsync()
         {
-            var customers = await _repo.GetAll();
-            return View(customers.ToList()) ;
+            if(HttpContext.Session.GetString("token") != null)
+            {
+                string token = HttpContext.Session.GetString("token");
+
+                _repo.GetToken(token);
+                var customers = await _repo.GetAll();
+                return View(customers.ToList());
+            }
+            return View();
         }
 
         // GET: CustomerController/Details/5

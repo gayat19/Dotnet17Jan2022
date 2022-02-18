@@ -2,7 +2,7 @@
 {
     public interface IRepo<K,T>
     {
-        string GetToken(string token);
+        void GetToken(string token);
         Task<T> Get(K key);
         Task<IEnumerable<T>> GetAll();
         Task<T> Delete(K key);
